@@ -40,5 +40,14 @@ public class Main {
         }
         System.out.println("==============================");
         System.out.println("SomatorioArray");
+        
+        System.out.println("==============================");
+        System.out.println("FindSubStr");
+        try {
+            System.out.println(FindSubStr.call("teste", "ste"));
+            System.out.println(FindSubStr.call("teste", "tse"));
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
