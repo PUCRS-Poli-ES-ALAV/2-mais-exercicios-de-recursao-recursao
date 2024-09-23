@@ -49,5 +49,13 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        System.out.println("==============================");
+        System.out.println("NroDigit");
+        try {
+            System.out.println(NroDigit.call(150));
+            System.out.println(NroDigit.call(3897));
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
