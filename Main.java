@@ -52,8 +52,9 @@ public class Main {
         System.out.println("==============================");
         System.out.println("NroDigit");
         try {
-            System.out.println(NroDigit.call(150));
-            System.out.println(NroDigit.call(3897));
+            System.out.println(NroDigit.call(7));
+            System.out.println(NroDigit.call(1560));
+            System.out.println(NroDigit.call(389087));
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
